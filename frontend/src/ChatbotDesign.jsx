@@ -42,7 +42,7 @@ export default function ChatbotDesign() {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:3000/chat", {
+      const res = await fetch("https://ai-chat-oqf2.onrender.com/chat", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
